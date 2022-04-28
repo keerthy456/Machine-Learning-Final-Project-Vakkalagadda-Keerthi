@@ -86,19 +86,19 @@ Target variable is a binary feature which can be either **'Yes'** or **'No'**. '
 
 <p align="left"> <img src="./results/aggregate-1.png" align="middle" width="500"/></p>
 
-**Observation: From the above plot people with BMI value Higher than '28' has high probablity of getting a heart disease and stroke.
+**Observation: From the above plot people with BMI value Higher than '28' has high probablity of getting a heart disease and stroke.**
 
 
 
 <p align="left"> <img src="./results/aggregate-2.png" align="middle" width="500"/></p>
 
-**Observation: Male adults who have heart disease smoke more than female adults.
+**Observation: Male adults who have heart disease smoke more than female adults.**
 
 
 
 <p align="left"> <img src="./results/sex-bar.png" align="middle" width="500"/></p>
 
-**Observation: Above result shows the distribution of 'heart disease'-records of different columns based on 'gender'. By seeing the plots, it looks like most of the women are not heavy drinkers/smokers, do more physical activity, less prone to have stroke and maintain good gen health when compared with men records.
+**Observation: Above result shows the distribution of 'heart disease'-records of different columns based on 'gender'. By seeing the plots, it looks like most of the women are not heavy drinkers/smokers, do more physical activity, less prone to have stroke and maintain good gen health when compared with men records.**
 
 
 
@@ -106,7 +106,7 @@ Target variable is a binary feature which can be either **'Yes'** or **'No'**. '
 
 <p align="left"> <img src="./results/corrMatrix.png" align="middle" width="500"/></p>
 
-**Observation: By looking at the above matrix we can say 'GenHealth' is highly correlated with 'Physical Health' and 'Difficulty in Walking'
+**Observation: By looking at the above matrix we can say 'GenHealth' is highly correlated with 'Physical Health' and 'Difficulty in Walking'**
  
  
 
