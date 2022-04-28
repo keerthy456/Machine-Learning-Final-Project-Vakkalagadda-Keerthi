@@ -46,25 +46,27 @@
 **SkinCancer**: (Ever told) (you had) skin cancer?
 
 
-# Analyzing the relationship between Target Feature and all other Features
+# Visualizing the relationship between Target feature (Heart Disease) and all other Features
 
-**Categorical Variables**: 
+**Distribution of Numerical Features** 
 
-1. BMI <p align="left"> <img src="./results/BMI.png" align="middle" width="500"/></p>          
-Smoking          
-Stroke             
-PhysicalHealth    
-MentalHealth      
-DiffWalking        
-Sex               
-AgeCategory        
-Race               
-Diabetic           
-PhysicalActivity   
-GenHealth         
-SleepTime         
-Asthma           
-KidneyDisease
+1. BMI <p align="left"> <img src="./results/BMI.png" align="middle" width="500"/></p> 
+2. SleepTime <p align="left"> <img src="./results/sleeptime.png" align="middle" width="500"/></p>
+3. PhysicalHealth <p align="left"> <img src="./results/physicalhealth.png" align="middle" width="500"/></p>   
+4. MentalHealth  <p align="left"> <img src="./results/mentalhealth.png" align="middle" width="500"/></p> 
+
+**Distribution of Categorical Features**          
+1. Smoking <p align="left"> <img src="./results/smoke-pie.png" align="middle" width="500"/></p> 
+2. Stroke   <p align="left"> <img src="./results/stroke-pie.png" align="middle" width="500"/></p>          
+3. DiffWalking  <p align="left"> <img src="./results/diffwalk-pie.png" align="middle" width="500"/></p>  
+4. Sex     <p align="left"> <img src="./results/sex-pie.png" align="middle" width="500"/></p>          
+5. AgeCategory  <p align="left"> <img src="./results/age-bar.png" align="middle" width="500"/></p>      
+6. Race     <p align="left"> <img src="./results/race-bar.png" align="middle" width="500"/></p>          
+7. Diabetic <p align="left"> <img src="diabetic-bar./results/.png" align="middle" width="500"/></p>          
+8. PhysicalActivity <p align="left"> <img src="phyAct-pie./results/.png" align="middle" width="500"/></p>  
+9. GenHealth     <p align="left"> <img src="henhealth-pie./results/.png" align="middle" width="500"/></p>         
+10. Asthma      <p align="left"> <img src="asthma-pie./results/.png" align="middle" width="500"/></p>     
+11. KidneyDisease <p align="left"> <img src="kidney-pie./results/.png" align="middle" width="500"/></p>
 
 
 
