@@ -58,15 +58,15 @@
 **Distribution of Categorical Features**          
 1. Smoking <p align="left"> <img src="./results/smoke-pie.png" align="middle" width="500"/></p> 
 2. Stroke   <p align="left"> <img src="./results/stroke-pie.png" align="middle" width="500"/></p>          
-3. DiffWalking  <p align="left"> <img src="./results/diffwalk-pie.png" align="middle" width="500"/></p>  
+3. Difficulty in Walking  <p align="left"> <img src="./results/diffwalk-pie.png" align="middle" width="500"/></p>  
 4. Sex     <p align="left"> <img src="./results/sex-pie.png" align="middle" width="500"/></p>          
-5. AgeCategory  <p align="left"> <img src="./results/age-bar.png" align="middle" width="500"/></p>      
+5. Age Category  <p align="left"> <img src="./results/age-bar.png" align="middle" width="500"/></p>      
 6. Race     <p align="left"> <img src="./results/race-bar.png" align="middle" width="500"/></p>          
-7. Diabetic <p align="left"> <img src="diabetic-bar./results/.png" align="middle" width="500"/></p>          
-8. PhysicalActivity <p align="left"> <img src="phyAct-pie./results/.png" align="middle" width="500"/></p>  
-9. GenHealth     <p align="left"> <img src="henhealth-pie./results/.png" align="middle" width="500"/></p>         
-10. Asthma      <p align="left"> <img src="asthma-pie./results/.png" align="middle" width="500"/></p>     
-11. KidneyDisease <p align="left"> <img src="kidney-pie./results/.png" align="middle" width="500"/></p>
+7. Diabetic <p align="left"> <img src="./results/diabetic-bar.png" align="middle" width="500"/></p>          
+8. Physical Activity <p align="left"> <img src="phyAct-pie./results/.png" align="middle" width="500"/></p>  
+9. GenHealth     <p align="left"> <img src="./results/genhealth-pie.png" align="middle" width="500"/></p>         
+10. Asthma      <p align="left"> <img src="./results/asthma-pie.png" align="middle" width="500"/></p>     
+11. Kidney Disease <p align="left"> <img src="./results/kidney-pie.png" align="middle" width="500"/></p>
 
 
 
