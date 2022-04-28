@@ -9,6 +9,7 @@
 
 
 # Features Description:
+
 **HeartDisease**: Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI).
 
 **BMI**: Body Mass Index (BMI).
@@ -57,7 +58,7 @@ Target variable is a binary feature which can be either **'Yes'** or **'No'**. '
 
 ## Visualizing the relationship between Target feature (Heart Disease) and all other Features
 
-### Distribution of Numerical Features** 
+### Distribution of Numerical Features
 
 1. BMI <p align="left"> <img src="./results/BMI.png" align="middle" width="500"/></p> 
 2. SleepTime <p align="left"> <img src="./results/sleeptime.png" align="middle" width="500"/></p>
