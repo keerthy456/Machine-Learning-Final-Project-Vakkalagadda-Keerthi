@@ -45,6 +45,14 @@
 
 **SkinCancer**: (Ever told) (you had) skin cancer?
 
+# Target Variable:
+Target variable is a binary feature which can be either **'Yes'** or **'No'**. 'Yes' indicates the person has 'Heart Disease' otherwise 'No"
+  
+  Number of people with/without Heart Disease:
+  No:     292422
+  
+  Yes:     27373
+  <p align="left"> <img src="./results/target.png" align="middle" width="500"/></p> 
 
 # Visualizing the relationship between Target feature (Heart Disease) and all other Features
 
@@ -59,14 +67,14 @@
 1. Smoking <p align="left"> <img src="./results/smoke-pie.png" align="middle" width="500"/></p> 
 2. Stroke   <p align="left"> <img src="./results/stroke-pie.png" align="middle" width="500"/></p>          
 3. Difficulty in Walking  <p align="left"> <img src="./results/diffwalk-pie.png" align="middle" width="500"/></p>  
-4. Sex     <p align="left"> <img src="./results/sex-pie.png" align="middle" width="500"/></p>          
-5. Age Category  <p align="left"> <img src="./results/age-bar.png" align="middle" width="500"/></p>      
-6. Race     <p align="left"> <img src="./results/race-bar.png" align="middle" width="500"/></p>          
-7. Diabetic <p align="left"> <img src="./results/diabetic-bar.png" align="middle" width="500"/></p>          
-8. Physical Activity <p align="left"> <img src="phyAct-pie./results/.png" align="middle" width="500"/></p>  
-9. GenHealth     <p align="left"> <img src="./results/genhealth-pie.png" align="middle" width="500"/></p>         
-10. Asthma      <p align="left"> <img src="./results/asthma-pie.png" align="middle" width="500"/></p>     
-11. Kidney Disease <p align="left"> <img src="./results/kidney-pie.png" align="middle" width="500"/></p>
+4. Sex     <p align="left"> <img src="./results/sex-pie.png" align="middle" width="500"/></p>                   
+5. Physical Activity <p align="left"> <img src="./results/phyAct-pie.png" align="middle" width="500"/></p>  
+6. GenHealth     <p align="left"> <img src="./results/genhealth-pie.png" align="middle" width="500"/></p>         
+7. Asthma      <p align="left"> <img src="./results/asthma-pie.png" align="middle" width="500"/></p>     
+8. Kidney Disease <p align="left"> <img src="./results/kidney-pie.png" align="middle" width="500"/></p>
+9. Age Category  <p align="left"> <img src="./results/age-bar.png" align="middle" width="500"/></p>      
+10. Race     <p align="left"> <img src="./results/race-bar.png" align="middle" width="500"/></p>          
+11. Diabetic <p align="left"> <img src="./results/diabetic-bar.png" align="middle" width="500"/></p> 
 
 
 
