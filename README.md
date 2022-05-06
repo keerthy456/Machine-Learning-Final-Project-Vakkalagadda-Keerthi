@@ -115,6 +115,45 @@ Target variable is a binary feature which can be either **'Yes'** or **'No'**. '
 The adults whose age is greater than or euqal to 80 have higher chances of getting a heart disease. In overall Dataset, most people who are diagnosed with heart disease are smokers and in that, percentage of male adults is high. White and Black people seem to have higher chance of getting heart disease. I did not see any relationship between heart disease and people who are Heavy drinkers/ asthma patients. Diabetic adults seem to have more chances of getting heart disease. However, the dataset is highly unbalanced and because of this some conculsions/plots needed to be further investiged and I'm hoping that by applying sampling techinques on dataset we can achieve noticable relationships between some features.
 
 
+# Building a Machine Learning Model for Precdiction
+
+## Data Preproccesing:
+
+In my dataset only 8 percent of target feature belongs to 'Yes' Class and remaining 92 percent belongs to 'No' class. Since it is highly unbalanced and using it directly for training model could lead to inefficient predictions. So I've sampled my dataset in a way that it will has equal distribution of 'Yes' and 'No'.
+
+
+**Target Feature Distribution Before sampling:**
+
+<p align="left"> <img src="./results/target.png" align="middle" width="500"/></p>
+
+
+**Target Feature Distribution After sampling:**
+
+<p align="left"> <img src="./results/target-after-sampling.png" align="middle" width="500"/></p>
+
+**Correlation Matrix After Sampling:**
+
+
+<p align="left"> <img src="./results/confusion-matrix.png" align="middle" width="500"/></p>
+
+By looking at the above coorelation matrix I believe 'Alcohol Drinking', 'Mental Health', 'Sleep Time', 'Race' doesnot seem to be highly coorelated (individually/when combined with other features as well) with 'Target Feature - Heart Disease'. So I'll be dropping them from my dataset and train the model with remaining features.
+
+**Encoding Categorical Features:**
+
+<p align="left"> <img src="./results/cate.png" align="middle" width="500"/></p>
+
+From the above picture you can see some of the categorical features are binary class variables which has 2 uniques values -yes/no, and some have more than 2 class values. So, for encoding binary features I've used Label encoder for converting yes/no to either 1 or 0 and dummies technique is used for categorical columns which has more than two unique values. Coming to dropping the unnecessary columns, I did not drop any columns because the dataset does not have any unique identifiers/ patient name/ address/zip code information and based on my intuition everything seems important. However the age Category is in categorical(each value is specified as range) and I'm converting it into integer by taking the mean if the given range.
+
+
+**Scaling/Normalizing Numerical Features:**
+
+After droping 'Metal Health' and 'Sleep Time' only two numerical features are left and I've scaled them using inbuilt 'Standard Scaler' function.
+
+<p align="left"> <img src="./results/numeric-stat.png" align="middle" width="500"/></p>
+
+
+
+
 
 
 
