@@ -175,7 +175,7 @@ I've choosen "plot_tree" method for visualizing the decision tree model's perfor
 
 ## Summary
 
-By seeing overall results, Decision tree works better for my problem in which it achieved 73 percent accuracy, where as linear regression does not fit doing predictions on my dataset since it belongs to classification problem and final target feature is categorical [0,1] rather than 'Continous' values. Hence I would choose Desicion Tree for predicting whether person gets heart disease by looking over certain features.
+By seeing overall results, Decision tree works better for my problem in which it achieved 73 percent accuracy, where as linear regression does not fit doing predictions on my dataset since it belongs to classification problem and final target feature is categorical [0, 1] rather than 'Continous' values. Hence I would choose Desicion Tree for predicting whether person gets heart disease by looking over certain features.
 
 
 
