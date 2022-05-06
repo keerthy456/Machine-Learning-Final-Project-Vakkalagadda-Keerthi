@@ -140,7 +140,7 @@ By looking at the above coorelation matrix I believe 'Alcohol Drinking', 'Mental
 
 **Encoding Categorical Features:**
 
-<p align="left"> <img src="./results/cate.png" align="middle" width="500"/></p>
+<p align="left"> <img src="./results/cate.png" align="middle" width="300"/></p>
 
 From the above picture you can see some of the categorical features are binary class variables which has 2 uniques values -yes/no, and some have more than 2 class values. So, for encoding binary features I've used Label encoder for converting yes/no to either 1 or 0 and dummies technique is used for categorical columns which has more than two unique values. Coming to dropping the unnecessary columns, I did not drop any columns because the dataset does not have any unique identifiers/ patient name/ address/zip code information and based on my intuition everything seems important. However the age Category is in categorical(each value is specified as range) and I'm converting it into integer by taking the mean if the given range.
 
@@ -150,6 +150,24 @@ From the above picture you can see some of the categorical features are binary c
 After droping 'Metal Health' and 'Sleep Time' only two numerical features are left and I've scaled them using inbuilt 'Standard Scaler' function.
 
 <p align="left"> <img src="./results/numeric-stat.png" align="middle" width="500"/></p>
+
+## Training the Model:
+
+The whole dataset is divided into four sets: Independent_variables -Train and Test sets, Dependent Variable - Train and Test sets. This spliting is done in 90:10 ratio, 90 percent data is used for training the model and 10 percent data is used for validating the model.
+
+**Linear Regression**
+
+Intially I've built a regression model to see how it works on a classification problem. For this I've choosen "Linear Regression". and it achieved an accuracy of 33.19 percent on test set. For seeing the model's performance I've plotted residual plot.
+
+<p align="left"> <img src="./results/residual.png" align="middle" width="500"/></p>
+
+**Decision Tree**
+
+<p align="left"> <img src="./results/heatmap.png" align="middle" width="500"/></p>
+<p align="left"> <img src="./results/desiciontree.png" align="middle" width="500"/></p>
+<p align="left"> <img src="./results/desiciontreeperf.png" align="middle" width="500"/></p>
+
+
 
 
 
