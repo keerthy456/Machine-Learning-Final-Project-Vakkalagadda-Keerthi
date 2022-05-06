@@ -165,7 +165,7 @@ Intially I've built a regression model to see how it works on a classification p
 
 <p align="left"> <img src="./results/heatmap.png" align="middle" width="500"/></p>
 <p align="left"> <img src="./results/desiciontree.png" align="middle" width="500"/></p>
-<p align="left"> <img src="./results/desiciontreeperf.png" align="middle" width="500"/></p>
+<p align="left"> <img src="./results/desiciontreeperf.png" align="middle" width="700"/></p>
 
 
 
