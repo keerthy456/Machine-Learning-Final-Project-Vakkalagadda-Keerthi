@@ -163,10 +163,19 @@ Intially I've built a regression model to see how it works on a classification p
 
 **Decision Tree**
 
+Later, I built Decision Tree and trained it on the dataset with 'max_depth' of '5' and it achieved 72.9 percent accuracy on the dataset.
+
 <p align="left"> <img src="./results/heatmap.png" align="middle" width="500"/></p>
+
+I've tested different train and test size ratios on the decision tree model and the performance gradually decreased when the training dataset ratio changed from 90 percent to 10 percent data. Below plot shows the relationship between accuracy and percent of training data. It is clear that accuracy of the model is linearly propotional to training dataset size.
 <p align="left"> <img src="./results/desiciontree.png" align="middle" width="500"/></p>
+
+I've choosen "plot_tree" method for visualizing the decision tree model's performance. This helped me to see which feature is being used for nodes and based what conditions/criteria model is trying to split the child nodes.
 <p align="left"> <img src="./results/desiciontreeperf.png" align="middle" width="700"/></p>
 
+## Summary
+
+By seeing overall results, Decision tree works better for my problem in which it achieved 73 percent accuracy, where as linear regression does not fit doing predictions on my dataset since it belongs to classification problem and final target feature is categorical [0,1] rather than 'Continous' values. Hence I would choose Desicion Tree for predicting whether person gets heart disease by looking over certain features.
 
 
 
